@@ -1,0 +1,26 @@
+{
+  "forensic_id": "ALERT_1762716162228",
+  "timestamp": 1762716148.421099,
+  "datetime": "2025-11-10T00:52:28.421099",
+  "event_type": "file_transfer",
+  "detection_methods": [
+    "rule_based",
+    "ml_based"
+  ],
+  "reasons": [
+    "Rule 3: Large file transfer detected: 100.0MB > 50MB",
+    "ML anomaly score: 0.820 (threshold: 0.5)"
+  ],
+  "severity": "high",
+  "ml_score": 0.82,
+  "event_details": {
+    "event_type": "file_transfer",
+    "timestamp": 1762716148.421099,
+    "filename": "sensitive_data_1.zip",
+    "size_bytes": 104857600,
+    "size_mb": 100.0,
+    "source": "vnc_client"
+  },
+  "containment_status": "pending",
+  "hash": "f4e09b3ecb6e3a402035d2e19b51e471a9299d8ef9dc1c3d719e47172b13f7e3"
+}

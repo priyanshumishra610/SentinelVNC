@@ -1,0 +1,25 @@
+{
+  "forensic_id": "ALERT_1762713283816",
+  "timestamp": 1762713280.570961,
+  "datetime": "2025-11-10T00:04:40.570961",
+  "event_type": "screenshot",
+  "detection_methods": [
+    "rule_based",
+    "ml_based"
+  ],
+  "reasons": [
+    "Rule 2: Screenshot burst detected: 15 screenshots in 10 seconds",
+    "ML anomaly score: 1.000 (threshold: 0.5)"
+  ],
+  "severity": "high",
+  "ml_score": 1.0,
+  "event_details": {
+    "event_type": "screenshot",
+    "timestamp": 1762713280.570961,
+    "screenshot_path": "data/synthetic/screenshots/screenshot_1762713280.png",
+    "resolution": "1920x1080",
+    "source": "vnc_client"
+  },
+  "containment_status": "pending",
+  "hash": "4f52f1d795baf2dc0b1e677a9c27c4664e02a7139a09081f3e80e4db3d5516b9"
+}

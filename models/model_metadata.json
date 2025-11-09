@@ -1,0 +1,36 @@
+{
+  "model_type": "RandomForestClassifier",
+  "n_estimators": 100,
+  "max_depth": 10,
+  "n_features": 11,
+  "train_samples": 1600,
+  "test_samples": 400,
+  "train_accuracy": 1.0,
+  "test_accuracy": 1.0,
+  "feature_names": [
+    "is_clipboard",
+    "is_screenshot",
+    "is_file_transfer",
+    "clipboard_size_mb",
+    "file_size_mb",
+    "time_of_day",
+    "clipboard_count_1min",
+    "screenshot_count_1min",
+    "file_transfer_count_1min",
+    "clipboard_total_kb_1min",
+    "file_transfer_total_mb_1min"
+  ],
+  "feature_importance": {
+    "is_clipboard": 1.9610525710209255e-05,
+    "is_screenshot": 0.0,
+    "is_file_transfer": 0.0,
+    "clipboard_size_mb": 0.024053020681207186,
+    "file_size_mb": 0.0023292568967618723,
+    "time_of_day": 5.476016892342279e-05,
+    "clipboard_count_1min": 0.15491738583866016,
+    "screenshot_count_1min": 0.25196474794186374,
+    "file_transfer_count_1min": 0.18,
+    "clipboard_total_kb_1min": 0.15086713495837933,
+    "file_transfer_total_mb_1min": 0.23579408298849405
+  }
+}

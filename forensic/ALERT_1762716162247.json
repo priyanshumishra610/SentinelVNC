@@ -1,0 +1,26 @@
+{
+  "forensic_id": "ALERT_1762716162247",
+  "timestamp": 1762716147.4262242,
+  "datetime": "2025-11-10T00:52:27.426224",
+  "event_type": "clipboard_copy",
+  "detection_methods": [
+    "rule_based",
+    "ml_based"
+  ],
+  "reasons": [
+    "Rule 1: Clipboard copy exceeds threshold: 300KB > 200KB",
+    "ML anomaly score: 1.000 (threshold: 0.5)"
+  ],
+  "severity": "high",
+  "ml_score": 1.0,
+  "event_details": {
+    "event_type": "clipboard_copy",
+    "timestamp": 1762716147.4262242,
+    "size_bytes": 307200,
+    "size_kb": 300,
+    "content_preview": "[300KB of data]",
+    "source": "vnc_client"
+  },
+  "containment_status": "pending",
+  "hash": "47bdc2ab918ae113d55593040e03bc3d4a4ee89180308cc1f141b32a64319bd6"
+}
