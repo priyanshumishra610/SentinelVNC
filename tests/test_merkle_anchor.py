@@ -264,3 +264,4 @@ class TestForensicAnchoring:
         assert anchors[0]["anchor_id"] == "ANCHOR_1"  # Sorted by timestamp
         assert anchors[1]["anchor_id"] == "ANCHOR_2"
 
+

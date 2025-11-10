@@ -209,3 +209,4 @@ class TestEndToEndWorkflow:
         # Verify anchor is now invalid
         assert anchorer.verify_anchor(anchor_file) is False
 
+

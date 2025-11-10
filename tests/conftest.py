@@ -107,3 +107,4 @@ def alerts_file(temp_dir):
     alerts_file.parent.mkdir(parents=True, exist_ok=True)
     return alerts_file
 
+

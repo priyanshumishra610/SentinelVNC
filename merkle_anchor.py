@@ -186,3 +186,4 @@ if __name__ == "__main__":
     for a in anchors:
         print(f"  {a['anchor_id']}: {a['merkle_root'][:32]}... ({a['forensic_count']} files)")
 
+

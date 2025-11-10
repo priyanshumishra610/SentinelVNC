@@ -147,3 +147,4 @@ class TestAttackSimulator:
         with pytest.raises(ValueError):
             sim.run_attack_scenario("invalid_scenario")
 
+
