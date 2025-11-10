@@ -316,24 +316,18 @@ python merkle_anchor.py
 
 ---
 
-## 🎓 For Hackathon Judges
-
 See:
 - `DEMO_SCRIPT.md`: Step-by-step demo script
-- `SLIDES.md`: 6-slide presentation outline
 - `FAQ.md`: Answers to common questions
 
 ---
 
-## 📝 License
-
-This is a hackathon MVP. Use for demonstration purposes only.
 
 ---
 
 ## 👤 Author
 
-Built for hackathon grand finale demo.
+Priyanshu Mishra
 
 ---
 
