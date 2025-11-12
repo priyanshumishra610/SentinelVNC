@@ -1,0 +1,43 @@
+{
+  "anchor_id": "ANCHOR_1762757069445",
+  "timestamp": 1762757069.445329,
+  "datetime": "2025-11-10T12:14:29.445330",
+  "merkle_root": "6f85726b1ad9b134c45a5d1415bf20e1d155486732832cd541e47368d6d2af8e",
+  "forensic_count": 28,
+  "forensic_files": [
+    "ALERT_1762757069356.json",
+    "ALERT_1762757068245.json",
+    "ALERT_1762757068834.json",
+    "ALERT_1762757068874.json",
+    "ALERT_1762757068205.json",
+    "ALERT_1762757069316.json",
+    "ALERT_1762757069034.json",
+    "ALERT_1762757068756.json",
+    "ALERT_1762757068167.json",
+    "ALERT_1762757069234.json",
+    "ALERT_1762757068575.json",
+    "ALERT_1762757069276.json",
+    "ALERT_1762757068996.json",
+    "ALERT_1762757068914.json",
+    "ALERT_1762757068954.json",
+    "ALERT_1762757068796.json",
+    "ALERT_1762757068450.json",
+    "ALERT_1762757068128.json",
+    "ALERT_1762757068493.json",
+    "ALERT_1762757069076.json",
+    "ALERT_1762757068617.json",
+    "ALERT_1762757069114.json",
+    "ALERT_1762757068085.json",
+    "ALERT_1762757069196.json",
+    "ALERT_1762757068698.json",
+    "ALERT_1762757068533.json",
+    "ALERT_1762757069154.json",
+    "ALERT_1762757068657.json"
+  ],
+  "verification": {
+    "algorithm": "SHA-256",
+    "tree_type": "Merkle",
+    "integrity": "verified"
+  },
+  "signature_hash": "32897fa419c2f7e37149ccec212dc84e9e9127425075501b642983061c28089e"
+}

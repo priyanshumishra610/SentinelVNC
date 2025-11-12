@@ -1,0 +1,111 @@
+version: '3.8'
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:15-alpine
+    container_name: sentinel_postgres
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-sentinel}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-sentinel}
+      POSTGRES_DB: ${POSTGRES_DB:-sentinelvnc}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-sentinel}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - sentinel_network
+
+  # Redis for Celery
+  redis:
+    image: redis:7-alpine
+    container_name: sentinel_redis
+    command: redis-server --requirepass ${REDIS_PASSWORD:-sentinel}
+    volumes:
+      - redis_data:/data
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "--raw", "incr", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - sentinel_network
+
+  # FastAPI Backend
+  backend:
+    build:
+      context: ..
+      dockerfile: backend/Dockerfile
+    container_name: sentinel_backend
+    environment:
+      - DATABASE_URL=postgresql://${POSTGRES_USER:-sentinel}:${POSTGRES_PASSWORD:-sentinel}@postgres:5432/${POSTGRES_DB:-sentinelvnc}
+      - REDIS_URL=redis://:${REDIS_PASSWORD:-sentinel}@redis:6379/0
+      - JWT_SECRET_KEY=${JWT_SECRET_KEY:-change-me-in-production}
+      - ML_MODEL_PATH=/app/models/detection_model.pkl
+    volumes:
+      - ../backend:/app/backend
+      - ../models:/app/models
+      - ../logs:/app/logs
+      - ../forensic:/app/forensic
+    ports:
+      - "8000:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - sentinel_network
+    command: uvicorn backend.app.main:app --host 0.0.0.0 --port 8000 --reload
+
+  # Streamlit Dashboard
+  dashboard:
+    build:
+      context: ..
+      dockerfile: dashboard/Dockerfile
+    container_name: sentinel_dashboard
+    environment:
+      - API_URL=http://backend:8000
+    volumes:
+      - ../dashboard:/app/dashboard
+    ports:
+      - "8501:8501"
+    depends_on:
+      - backend
+    networks:
+      - sentinel_network
+
+  # VNC Proxy
+  proxy:
+    build:
+      context: ..
+      dockerfile: Dockerfile.proxy
+    container_name: sentinel_proxy
+    environment:
+      - ALERT_URL=http://backend:8000/api/v1/alerts
+      - LISTEN_HOST=0.0.0.0
+      - LISTEN_PORT=5900
+      - SERVER_HOST=${VNC_SERVER_HOST:-vnc-server}
+      - SERVER_PORT=${VNC_SERVER_PORT:-5901}
+    ports:
+      - "5900:5900"
+    depends_on:
+      - backend
+    networks:
+      - sentinel_network
+
+volumes:
+  postgres_data:
+  redis_data:
+
+networks:
+  sentinel_network:
+    driver: bridge
+

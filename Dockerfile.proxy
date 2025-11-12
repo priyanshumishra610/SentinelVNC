@@ -1,0 +1,15 @@
+FROM python:3.10-slim
+
+WORKDIR /app
+
+# Install dependencies
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy proxy script
+COPY sentinelvnc_proxy.py .
+
+EXPOSE 5900
+
+CMD ["python", "sentinelvnc_proxy.py", "--listen", "0.0.0.0:5900", "--server", "${SERVER_HOST}:${SERVER_PORT}", "--alert-url", "${ALERT_URL}"]
+

@@ -1,67 +1,35 @@
-{"event_type": "screenshot", "timestamp": 1762713301.9184406, "screenshot_path": "data/synthetic/screenshots/screenshot_1762713301.png", "resolution": "1920x1080", "source": "vnc_client"}
-{"event_type": "clipboard_copy", "timestamp": 1762713275.6195781, "size_bytes": 512000, "size_kb": 500, "content_preview": "[500KB of data]", "source": "vnc_client"}
-{"event_type": "clipboard_copy", "timestamp": 1762713276.1195781, "size_bytes": 512000, "size_kb": 500, "content_preview": "[500KB of data]", "source": "vnc_client"}
-{"event_type": "clipboard_copy", "timestamp": 1762713276.6195781, "size_bytes": 512000, "size_kb": 500, "content_preview": "[500KB of data]", "source": "vnc_client"}
-{"event_type": "clipboard_copy", "timestamp": 1762713277.1195781, "size_bytes": 512000, "size_kb": 500, "content_preview": "[500KB of data]", "source": "vnc_client"}
-{"event_type": "clipboard_copy", "timestamp": 1762713277.6195781, "size_bytes": 512000, "size_kb": 500, "content_preview": "[500KB of data]", "source": "vnc_client"}
-{"event_type": "screenshot", "timestamp": 1762713275.619636, "screenshot_path": "data/synthetic/screenshots/screenshot_1762713275.png", "resolution": "1920x1080", "source": "vnc_client"}
-{"event_type": "screenshot", "timestamp": 1762713276.119636, "screenshot_path": "data/synthetic/screenshots/screenshot_1762713276.png", "resolution": "1920x1080", "source": "vnc_client"}
-{"event_type": "screenshot", "timestamp": 1762713276.619636, "screenshot_path": "data/synthetic/screenshots/screenshot_1762713276.png", "resolution": "1920x1080", "source": "vnc_client"}
-{"event_type": "screenshot", "timestamp": 1762713277.119636, "screenshot_path": "data/synthetic/screenshots/screenshot_1762713277.png", "resolution": "1920x1080", "source": "vnc_client"}
-{"event_type": "screenshot", "timestamp": 1762713277.619636, "screenshot_path": "data/synthetic/screenshots/screenshot_1762713277.png", "resolution": "1920x1080", "source": "vnc_client"}
-{"event_type": "screenshot", "timestamp": 1762713278.119636, "screenshot_path": "data/synthetic/screenshots/screenshot_1762713278.png", "resolution": "1920x1080", "source": "vnc_client"}
-{"event_type": "screenshot", "timestamp": 1762713278.619636, "screenshot_path": "data/synthetic/screenshots/screenshot_1762713278.png", "resolution": "1920x1080", "source": "vnc_client"}
-{"event_type": "screenshot", "timestamp": 1762713279.119636, "screenshot_path": "data/synthetic/screenshots/screenshot_1762713279.png", "resolution": "1920x1080", "source": "vnc_client"}
-{"event_type": "screenshot", "timestamp": 1762713279.619636, "screenshot_path": "data/synthetic/screenshots/screenshot_1762713279.png", "resolution": "1920x1080", "source": "vnc_client"}
-{"event_type": "screenshot", "timestamp": 1762713280.119636, "screenshot_path": "data/synthetic/screenshots/screenshot_1762713280.png", "resolution": "1920x1080", "source": "vnc_client"}
-{"event_type": "file_transfer", "timestamp": 1762713276.1652749, "filename": "sensitive_data_0.zip", "size_bytes": 104857600, "size_mb": 100.0, "source": "vnc_client"}
-{"event_type": "file_transfer", "timestamp": 1762713278.1652749, "filename": "sensitive_data_1.zip", "size_bytes": 104857600, "size_mb": 100.0, "source": "vnc_client"}
-{"event_type": "file_transfer", "timestamp": 1762713280.1652749, "filename": "sensitive_data_2.zip", "size_bytes": 104857600, "size_mb": 100.0, "source": "vnc_client"}
-{"event_type": "clipboard_copy", "timestamp": 1762713277.170399, "size_bytes": 307200, "size_kb": 300, "content_preview": "[300KB of data]", "source": "vnc_client"}
-{"event_type": "clipboard_copy", "timestamp": 1762713277.670399, "size_bytes": 307200, "size_kb": 300, "content_preview": "[300KB of data]", "source": "vnc_client"}
-{"event_type": "clipboard_copy", "timestamp": 1762713278.170399, "size_bytes": 307200, "size_kb": 300, "content_preview": "[300KB of data]", "source": "vnc_client"}
-{"event_type": "screenshot", "timestamp": 1762713278.170961, "screenshot_path": "data/synthetic/screenshots/screenshot_1762713278.png", "resolution": "1920x1080", "source": "vnc_client"}
-{"event_type": "screenshot", "timestamp": 1762713278.9709609, "screenshot_path": "data/synthetic/screenshots/screenshot_1762713278.png", "resolution": "1920x1080", "source": "vnc_client"}
-{"event_type": "screenshot", "timestamp": 1762713279.7709608, "screenshot_path": "data/synthetic/screenshots/screenshot_1762713279.png", "resolution": "1920x1080", "source": "vnc_client"}
-{"event_type": "screenshot", "timestamp": 1762713280.570961, "screenshot_path": "data/synthetic/screenshots/screenshot_1762713280.png", "resolution": "1920x1080", "source": "vnc_client"}
-{"event_type": "screenshot", "timestamp": 1762713281.370961, "screenshot_path": "data/synthetic/screenshots/screenshot_1762713281.png", "resolution": "1920x1080", "source": "vnc_client"}
-{"event_type": "screenshot", "timestamp": 1762713282.170961, "screenshot_path": "data/synthetic/screenshots/screenshot_1762713282.png", "resolution": "1920x1080", "source": "vnc_client"}
-{"event_type": "screenshot", "timestamp": 1762713282.9709609, "screenshot_path": "data/synthetic/screenshots/screenshot_1762713282.png", "resolution": "1920x1080", "source": "vnc_client"}
-{"event_type": "screenshot", "timestamp": 1762713283.7709608, "screenshot_path": "data/synthetic/screenshots/screenshot_1762713283.png", "resolution": "1920x1080", "source": "vnc_client"}
-{"event_type": "file_transfer", "timestamp": 1762713278.636554, "filename": "sensitive_data_0.zip", "size_bytes": 52428800, "size_mb": 50.0, "source": "vnc_client"}
-{"event_type": "file_transfer", "timestamp": 1762713280.636554, "filename": "sensitive_data_1.zip", "size_bytes": 52428800, "size_mb": 50.0, "source": "vnc_client"}
-{"event_type": "screenshot", "timestamp": 1762716145.5773618, "screenshot_path": "data/synthetic/screenshots/screenshot_1762716145.png", "resolution": "1920x1080", "source": "vnc_client"}
-{"event_type": "screenshot", "timestamp": 1762716151.270621, "screenshot_path": "data/synthetic/screenshots/screenshot_1762716151.png", "resolution": "1920x1080", "source": "vnc_client"}
-{"event_type": "clipboard_copy", "timestamp": 1762716161.180137, "size_bytes": 6144, "size_kb": 6, "content_preview": "[6KB of data]", "source": "vnc_client"}
-{"event_type": "clipboard_copy", "timestamp": 1762716171.2001407, "size_bytes": 31744, "size_kb": 31, "content_preview": "[31KB of data]", "source": "vnc_client"}
-{"event_type": "clipboard_copy", "timestamp": 1762716145.851918, "size_bytes": 512000, "size_kb": 500, "content_preview": "[500KB of data]", "source": "vnc_client"}
-{"event_type": "clipboard_copy", "timestamp": 1762716146.351918, "size_bytes": 512000, "size_kb": 500, "content_preview": "[500KB of data]", "source": "vnc_client"}
-{"event_type": "clipboard_copy", "timestamp": 1762716146.851918, "size_bytes": 512000, "size_kb": 500, "content_preview": "[500KB of data]", "source": "vnc_client"}
-{"event_type": "clipboard_copy", "timestamp": 1762716147.351918, "size_bytes": 512000, "size_kb": 500, "content_preview": "[500KB of data]", "source": "vnc_client"}
-{"event_type": "clipboard_copy", "timestamp": 1762716147.851918, "size_bytes": 512000, "size_kb": 500, "content_preview": "[500KB of data]", "source": "vnc_client"}
-{"event_type": "screenshot", "timestamp": 1762716145.8520021, "screenshot_path": "data/synthetic/screenshots/screenshot_1762716145.png", "resolution": "1920x1080", "source": "vnc_client"}
-{"event_type": "screenshot", "timestamp": 1762716146.3520021, "screenshot_path": "data/synthetic/screenshots/screenshot_1762716146.png", "resolution": "1920x1080", "source": "vnc_client"}
-{"event_type": "screenshot", "timestamp": 1762716146.8520021, "screenshot_path": "data/synthetic/screenshots/screenshot_1762716146.png", "resolution": "1920x1080", "source": "vnc_client"}
-{"event_type": "screenshot", "timestamp": 1762716147.3520021, "screenshot_path": "data/synthetic/screenshots/screenshot_1762716147.png", "resolution": "1920x1080", "source": "vnc_client"}
-{"event_type": "screenshot", "timestamp": 1762716147.8520021, "screenshot_path": "data/synthetic/screenshots/screenshot_1762716147.png", "resolution": "1920x1080", "source": "vnc_client"}
-{"event_type": "screenshot", "timestamp": 1762716148.3520021, "screenshot_path": "data/synthetic/screenshots/screenshot_1762716148.png", "resolution": "1920x1080", "source": "vnc_client"}
-{"event_type": "screenshot", "timestamp": 1762716148.8520021, "screenshot_path": "data/synthetic/screenshots/screenshot_1762716148.png", "resolution": "1920x1080", "source": "vnc_client"}
-{"event_type": "screenshot", "timestamp": 1762716149.3520021, "screenshot_path": "data/synthetic/screenshots/screenshot_1762716149.png", "resolution": "1920x1080", "source": "vnc_client"}
-{"event_type": "screenshot", "timestamp": 1762716149.8520021, "screenshot_path": "data/synthetic/screenshots/screenshot_1762716149.png", "resolution": "1920x1080", "source": "vnc_client"}
-{"event_type": "screenshot", "timestamp": 1762716150.3520021, "screenshot_path": "data/synthetic/screenshots/screenshot_1762716150.png", "resolution": "1920x1080", "source": "vnc_client"}
-{"event_type": "file_transfer", "timestamp": 1762716146.421099, "filename": "sensitive_data_0.zip", "size_bytes": 104857600, "size_mb": 100.0, "source": "vnc_client"}
-{"event_type": "file_transfer", "timestamp": 1762716148.421099, "filename": "sensitive_data_1.zip", "size_bytes": 104857600, "size_mb": 100.0, "source": "vnc_client"}
-{"event_type": "file_transfer", "timestamp": 1762716150.421099, "filename": "sensitive_data_2.zip", "size_bytes": 104857600, "size_mb": 100.0, "source": "vnc_client"}
-{"event_type": "clipboard_copy", "timestamp": 1762716147.4262242, "size_bytes": 307200, "size_kb": 300, "content_preview": "[300KB of data]", "source": "vnc_client"}
-{"event_type": "clipboard_copy", "timestamp": 1762716147.9262242, "size_bytes": 307200, "size_kb": 300, "content_preview": "[300KB of data]", "source": "vnc_client"}
-{"event_type": "clipboard_copy", "timestamp": 1762716148.4262242, "size_bytes": 307200, "size_kb": 300, "content_preview": "[300KB of data]", "source": "vnc_client"}
-{"event_type": "screenshot", "timestamp": 1762716148.4287841, "screenshot_path": "data/synthetic/screenshots/screenshot_1762716148.png", "resolution": "1920x1080", "source": "vnc_client"}
-{"event_type": "screenshot", "timestamp": 1762716149.228784, "screenshot_path": "data/synthetic/screenshots/screenshot_1762716149.png", "resolution": "1920x1080", "source": "vnc_client"}
-{"event_type": "screenshot", "timestamp": 1762716150.028784, "screenshot_path": "data/synthetic/screenshots/screenshot_1762716150.png", "resolution": "1920x1080", "source": "vnc_client"}
-{"event_type": "screenshot", "timestamp": 1762716150.8287842, "screenshot_path": "data/synthetic/screenshots/screenshot_1762716150.png", "resolution": "1920x1080", "source": "vnc_client"}
-{"event_type": "screenshot", "timestamp": 1762716151.6287842, "screenshot_path": "data/synthetic/screenshots/screenshot_1762716151.png", "resolution": "1920x1080", "source": "vnc_client"}
-{"event_type": "screenshot", "timestamp": 1762716152.4287841, "screenshot_path": "data/synthetic/screenshots/screenshot_1762716152.png", "resolution": "1920x1080", "source": "vnc_client"}
-{"event_type": "screenshot", "timestamp": 1762716153.228784, "screenshot_path": "data/synthetic/screenshots/screenshot_1762716153.png", "resolution": "1920x1080", "source": "vnc_client"}
-{"event_type": "screenshot", "timestamp": 1762716154.028784, "screenshot_path": "data/synthetic/screenshots/screenshot_1762716154.png", "resolution": "1920x1080", "source": "vnc_client"}
-{"event_type": "file_transfer", "timestamp": 1762716148.8959439, "filename": "sensitive_data_0.zip", "size_bytes": 52428800, "size_mb": 50.0, "source": "vnc_client"}
-{"event_type": "file_transfer", "timestamp": 1762716150.8959439, "filename": "sensitive_data_1.zip", "size_bytes": 52428800, "size_mb": 50.0, "source": "vnc_client"}
+{"event_type": "clipboard_copy", "timestamp": 1762757055.060821, "size_bytes": 12288, "size_kb": 12, "content_preview": "[12KB of data]", "source": "vnc_client"}
+{"event_type": "clipboard_copy", "timestamp": 1762757061.1191807, "size_bytes": 47104, "size_kb": 46, "content_preview": "[46KB of data]", "source": "vnc_client"}
+{"event_type": "clipboard_copy", "timestamp": 1762757080.4554915, "size_bytes": 5120, "size_kb": 5, "content_preview": "[5KB of data]", "source": "vnc_client"}
+{"event_type": "clipboard_copy", "timestamp": 1762757055.060983, "size_bytes": 512000, "size_kb": 500, "content_preview": "[500KB of data]", "source": "vnc_client"}
+{"event_type": "clipboard_copy", "timestamp": 1762757055.560983, "size_bytes": 512000, "size_kb": 500, "content_preview": "[500KB of data]", "source": "vnc_client"}
+{"event_type": "clipboard_copy", "timestamp": 1762757056.060983, "size_bytes": 512000, "size_kb": 500, "content_preview": "[500KB of data]", "source": "vnc_client"}
+{"event_type": "clipboard_copy", "timestamp": 1762757056.560983, "size_bytes": 512000, "size_kb": 500, "content_preview": "[500KB of data]", "source": "vnc_client"}
+{"event_type": "clipboard_copy", "timestamp": 1762757057.060983, "size_bytes": 512000, "size_kb": 500, "content_preview": "[500KB of data]", "source": "vnc_client"}
+{"event_type": "screenshot", "timestamp": 1762757055.061028, "screenshot_path": "data/synthetic/screenshots/screenshot_1762757055.png", "resolution": "1920x1080", "source": "vnc_client"}
+{"event_type": "screenshot", "timestamp": 1762757055.561028, "screenshot_path": "data/synthetic/screenshots/screenshot_1762757055.png", "resolution": "1920x1080", "source": "vnc_client"}
+{"event_type": "screenshot", "timestamp": 1762757056.061028, "screenshot_path": "data/synthetic/screenshots/screenshot_1762757056.png", "resolution": "1920x1080", "source": "vnc_client"}
+{"event_type": "screenshot", "timestamp": 1762757056.561028, "screenshot_path": "data/synthetic/screenshots/screenshot_1762757056.png", "resolution": "1920x1080", "source": "vnc_client"}
+{"event_type": "screenshot", "timestamp": 1762757057.061028, "screenshot_path": "data/synthetic/screenshots/screenshot_1762757057.png", "resolution": "1920x1080", "source": "vnc_client"}
+{"event_type": "screenshot", "timestamp": 1762757057.561028, "screenshot_path": "data/synthetic/screenshots/screenshot_1762757057.png", "resolution": "1920x1080", "source": "vnc_client"}
+{"event_type": "screenshot", "timestamp": 1762757058.061028, "screenshot_path": "data/synthetic/screenshots/screenshot_1762757058.png", "resolution": "1920x1080", "source": "vnc_client"}
+{"event_type": "screenshot", "timestamp": 1762757058.561028, "screenshot_path": "data/synthetic/screenshots/screenshot_1762757058.png", "resolution": "1920x1080", "source": "vnc_client"}
+{"event_type": "screenshot", "timestamp": 1762757059.061028, "screenshot_path": "data/synthetic/screenshots/screenshot_1762757059.png", "resolution": "1920x1080", "source": "vnc_client"}
+{"event_type": "screenshot", "timestamp": 1762757059.561028, "screenshot_path": "data/synthetic/screenshots/screenshot_1762757059.png", "resolution": "1920x1080", "source": "vnc_client"}
+{"event_type": "file_transfer", "timestamp": 1762757057.6476438, "filename": "sensitive_data_0.zip", "size_bytes": 104857600, "size_mb": 100.0, "source": "vnc_client"}
+{"event_type": "file_transfer", "timestamp": 1762757059.6476438, "filename": "sensitive_data_1.zip", "size_bytes": 104857600, "size_mb": 100.0, "source": "vnc_client"}
+{"event_type": "file_transfer", "timestamp": 1762757061.6476438, "filename": "sensitive_data_2.zip", "size_bytes": 104857600, "size_mb": 100.0, "source": "vnc_client"}
+{"event_type": "screenshot", "timestamp": 1762757072.4268894, "screenshot_path": "data/synthetic/screenshots/screenshot_1762757072.png", "resolution": "1920x1080", "source": "vnc_client"}
+{"event_type": "clipboard_copy", "timestamp": 1762757058.706835, "size_bytes": 307200, "size_kb": 300, "content_preview": "[300KB of data]", "source": "vnc_client"}
+{"event_type": "clipboard_copy", "timestamp": 1762757059.206835, "size_bytes": 307200, "size_kb": 300, "content_preview": "[300KB of data]", "source": "vnc_client"}
+{"event_type": "clipboard_copy", "timestamp": 1762757059.706835, "size_bytes": 307200, "size_kb": 300, "content_preview": "[300KB of data]", "source": "vnc_client"}
+{"event_type": "screenshot", "timestamp": 1762757059.709905, "screenshot_path": "data/synthetic/screenshots/screenshot_1762757059.png", "resolution": "1920x1080", "source": "vnc_client"}
+{"event_type": "screenshot", "timestamp": 1762757060.5099049, "screenshot_path": "data/synthetic/screenshots/screenshot_1762757060.png", "resolution": "1920x1080", "source": "vnc_client"}
+{"event_type": "screenshot", "timestamp": 1762757061.3099048, "screenshot_path": "data/synthetic/screenshots/screenshot_1762757061.png", "resolution": "1920x1080", "source": "vnc_client"}
+{"event_type": "screenshot", "timestamp": 1762757062.109905, "screenshot_path": "data/synthetic/screenshots/screenshot_1762757062.png", "resolution": "1920x1080", "source": "vnc_client"}
+{"event_type": "screenshot", "timestamp": 1762757062.909905, "screenshot_path": "data/synthetic/screenshots/screenshot_1762757062.png", "resolution": "1920x1080", "source": "vnc_client"}
+{"event_type": "screenshot", "timestamp": 1762757063.709905, "screenshot_path": "data/synthetic/screenshots/screenshot_1762757063.png", "resolution": "1920x1080", "source": "vnc_client"}
+{"event_type": "screenshot", "timestamp": 1762757064.5099049, "screenshot_path": "data/synthetic/screenshots/screenshot_1762757064.png", "resolution": "1920x1080", "source": "vnc_client"}
+{"event_type": "screenshot", "timestamp": 1762757065.3099048, "screenshot_path": "data/synthetic/screenshots/screenshot_1762757065.png", "resolution": "1920x1080", "source": "vnc_client"}
+{"event_type": "file_transfer", "timestamp": 1762757060.159404, "filename": "sensitive_data_0.zip", "size_bytes": 52428800, "size_mb": 50.0, "source": "vnc_client"}
+{"event_type": "file_transfer", "timestamp": 1762757062.159404, "filename": "sensitive_data_1.zip", "size_bytes": 52428800, "size_mb": 50.0, "source": "vnc_client"}

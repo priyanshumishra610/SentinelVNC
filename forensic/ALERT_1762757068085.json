@@ -1,0 +1,24 @@
+{
+  "forensic_id": "ALERT_1762757068085",
+  "timestamp": 1762757055.060983,
+  "datetime": "2025-11-10T12:14:15.060983",
+  "event_type": "clipboard_copy",
+  "detection_methods": [
+    "rule_based"
+  ],
+  "reasons": [
+    "Rule 1: Clipboard copy exceeds threshold: 500KB > 200KB"
+  ],
+  "severity": "medium",
+  "ml_score": 0.21,
+  "event_details": {
+    "event_type": "clipboard_copy",
+    "timestamp": 1762757055.060983,
+    "size_bytes": 512000,
+    "size_kb": 500,
+    "content_preview": "[500KB of data]",
+    "source": "vnc_client"
+  },
+  "containment_status": "pending",
+  "hash": "3c8f1573447132dc43cc2633f9ef9befd9ee9c9cf8cdaa445d56d858b46d2be8"
+}
